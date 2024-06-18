@@ -44,7 +44,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-3">
         <div className="text-[#27f8d9] font-semibold text-[25px]">
-          {flag ? "X" : "Y"} turn's
+          {flag ? "X" : "Y"} {"turn's"}
         </div>
         <div className="h-[300px] w-[300px] border-2 border-pink-500 text-white">
           {ticArr.map((row, i) => {
